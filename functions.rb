@@ -1,7 +1,7 @@
 def menu
   puts `clear`
   puts 'Subway Trip Mapper'.color("#cc0033")
-  print "Choose (T)rain or (Q)uit."
+  print "Choose (T)rain or (Q)uit. "
   gets.chomp.downcase
 end
 
